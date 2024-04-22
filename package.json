@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "homepage": "https://michaelitindi.github.io/animal_class",
-  "main": "index.js",
+  "main": "index.html",
   "jest": {
     "reporters": [
       "default",
