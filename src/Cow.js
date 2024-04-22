@@ -12,7 +12,7 @@ class Cow extends Animal{
         this.cowbreed = cowbreed;
     }
     sound() {
-        console.log("Moo")
+        return "Moo"
     }
 }
 

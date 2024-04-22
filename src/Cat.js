@@ -7,7 +7,7 @@ class Cat extends Animal{
 
 sound()
 {
-    console.log("Meow")
+    return "Meow"
 }
 }
 

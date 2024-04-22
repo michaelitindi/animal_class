@@ -12,7 +12,7 @@ class Dog extends Animal{
         this.breed = breed;
     }
      sound() {
-        console.log("Woof")
+        return "Woof"
     }
 
 }

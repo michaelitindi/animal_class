@@ -22,6 +22,9 @@
     setGender(gender){
         this.gender = gender;
     }
+    sound() {
+        console.log("Animal sound")
+    }
 }
 
 export default Animal
