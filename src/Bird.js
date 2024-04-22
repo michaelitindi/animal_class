@@ -15,3 +15,5 @@ class Bird extends Animal{
         console.log("Chirp")
     }
 }
+
+export default Bird

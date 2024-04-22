@@ -15,3 +15,5 @@ class Cow extends Animal{
         console.log("Moo")
     }
 }
+
+export default Cow

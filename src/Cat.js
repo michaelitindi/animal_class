@@ -10,3 +10,5 @@ sound()
     console.log("Meow")
 }
 }
+
+export default Cat

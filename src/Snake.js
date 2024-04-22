@@ -15,3 +15,5 @@ class Snake extends Animal{
         console.log("Hiss")
     }
 }
+
+export default Snake
