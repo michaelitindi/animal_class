@@ -23,7 +23,7 @@
     "lint": "eslint src --ext .js",
     "start": "npm run build && npm run webpackServer",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
