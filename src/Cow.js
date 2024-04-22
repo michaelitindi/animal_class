@@ -1,19 +1,17 @@
-import Animal from "./Animal.js";
+const Animal = require("./Animal.js");
 
-class Cow extends Animal{
-    constructor(name,age,gender,cowbreed){
-        super(name,age,gender);
+class Cow extends Animal {
+    constructor(name, age, gender, cowbreed) {
+        super(name, age, gender);
         this.cowbreed = cowbreed;
     }
-    getCowbreed(){
+    getCowbreed() {
         return this.cowbreed;
     }
-    setCowbreed(cowbreed){
-        this.cowbreed = cowbreed;
-    }
     sound() {
-        console.log("Moo")
+        return "moo";
+       // console.log("Moo");
     }
 }
 
-export default Cow
+export default Cow;

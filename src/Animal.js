@@ -1,27 +1,18 @@
-    class Animal{
-    constructor(name,age,gender){
+class Animal {
+    constructor(name, age, gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
     }
-    getAge(){
+    getAge() {
         return this.age;
     }
-    getName(){
+    getName() {
         return this.name;
     }
-    getGender(){
+    getGender() {
         return this.gender;
-    }
-    setAge(age){
-        this.age = age;
-    }
-    setName(name){
-        this.name = name;
-    }
-    setGender(gender){
-        this.gender = gender;
     }
 }
 
-export default Animal
+module.exports = Animal;

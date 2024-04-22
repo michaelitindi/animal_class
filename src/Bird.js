@@ -12,7 +12,7 @@ class Bird extends Animal{
         this.species = species;
     }
     sound() {
-        console.log("Chirp")
+        return  "Chirp";
     }
 }
 

@@ -12,7 +12,7 @@ class Snake extends Animal{
         this.family = family;
     }
     sound() {
-        console.log("Hiss")
+        return "Hiss";
     }
 }
 
