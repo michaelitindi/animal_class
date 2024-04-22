@@ -1,7 +1,5 @@
 {
-
-  "homepage": "https://michaelitindi.github.io/animal_class",
-   "name": "animal_class",
+  "name": "animal_class",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://michaelitindi.github.io/animal_class",
@@ -26,9 +24,7 @@
     "build": "webpack --mode=production",
     "webpackServer": "webpack-dev-server --open --mode=development",
     "lint": "eslint src --ext .js",
-    "start": "npm run build && npm run webpackServer",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "start": "npm run build && npm run webpackServer"
   },
   "keywords": [],
   "author": "",
