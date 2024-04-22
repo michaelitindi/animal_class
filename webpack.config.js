@@ -27,7 +27,14 @@ module.exports = {
           'style-loader',
           'css-loader'
         ]
-      }
+      },
+      {
+        test: /\.js$/, // Rule for Babel loader
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader'
+        }
+      }  
     ]},
     devServer:{
       static:{

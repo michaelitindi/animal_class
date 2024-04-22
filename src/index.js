@@ -18,3 +18,6 @@ console.log(cow.sound());
 console.log(dog.sound());
 console.log(bird.sound());
 console.log(cow.getCowbreed());
+console.log(animal.getAge());
+console.log(cat.getName());
+console.log(snake.getGender());
