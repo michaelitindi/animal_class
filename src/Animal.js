@@ -1,4 +1,4 @@
-export default class Animal{
+    class Animal{
     constructor(name,age,gender){
         this.name = name;
         this.age = age;
@@ -24,3 +24,4 @@ export default class Animal{
     }
 }
 
+export default Animal
