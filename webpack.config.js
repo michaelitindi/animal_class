@@ -1,7 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {CleanWebpackPlugin} = require('clean-webpack-plugin');
-const ESLintPlugin = require('eslint-webpack-plugin');  
+const ESLintPlugin = require('eslint-webpack-plugin');   // new line!
 
 module.exports = {
   entry: './src/index.js',
@@ -29,16 +29,25 @@ module.exports = {
         ]
       },
       {
-        test: /\.js$/, 
-        exclude: /node_modules/,
+        test: /\.(gif|png|avif|jpe?g)$/,
+        type: "asset/resource",
+        generator: {
+          filename: "[name][ext]",
+          publicPath: "assets/images/",
+          outputPath: "assets/images/",
+        },
+      },
+      {
+        test:/\.html$/,
         use: [
-         'babel-loader'
+          'html-loader'
         ]
-      }  
+      },
     ]},
     devServer:{
       static:{
         directory: path.join(__dirname, "dist"), 
       }
-    }
+    },
+    
   };
