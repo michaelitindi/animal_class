@@ -10,7 +10,6 @@ class Cow extends Animal {
     }
     sound() {
         return "moo";
-       // console.log("Moo");
     }
 }
 

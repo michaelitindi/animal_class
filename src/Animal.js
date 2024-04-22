@@ -13,6 +13,9 @@ class Animal {
     getGender() {
         return this.gender;
     }
+    sound() {
+        console.log("Animal sound")
+    }
 }
 
 module.exports = Animal;
