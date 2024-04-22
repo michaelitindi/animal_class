@@ -17,3 +17,4 @@ const snake = new Snake("Asande",10,"Female","Cobra")
 console.log(cow.sound());
 console.log(dog.sound());
 console.log(bird.sound());
+console.log(cow.getCowbreed());
